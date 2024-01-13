@@ -155,13 +155,13 @@ table {
   align-self: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 .page-card .layout .card__body {
   align-self: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 .page-card .layout .card__footer {
   align-self: flex-start;
