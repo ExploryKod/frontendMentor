@@ -11,7 +11,7 @@
         background-color: $page-bg-color;
         
         &__card {
-            max-width: 300px;
+            max-width: $card-width;
             padding: $card-pad;
             display:flex;
             flex-direction: column;
