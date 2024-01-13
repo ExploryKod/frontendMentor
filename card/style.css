@@ -1,0 +1,185 @@
+/* Spacing */
+/* Colors */
+/* Borders and radius */
+/* Typography */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  font-family: "FigTree", sans-serif;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.page-card .layout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(47, 88%, 63%);
+}
+.page-card .layout__card {
+  max-width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: hsl(0, 0%, 7%) 7.4px 7.4px 0px;
+}
+
+.title-xs {
+  color: hsl(0, 0%, 7%);
+}
+.title-xs--bold {
+  font-weight: bold;
+}
+.title-xs--italic {
+  font-style: italic;
+}
+
+.title-lg {
+  color: hsl(0, 0%, 7%);
+  cursor: pointer;
+}
+.title-lg:hover {
+  color: hsl(47, 88%, 63%);
+}
+.title-lg--bold {
+  font-weight: bold;
+}
+.title-lg--italic {
+  font-style: italic;
+}
+
+.text-lg {
+  color: hsl(0, 0%, 50%);
+  font-size: 16px;
+}
+.text-lg--bold {
+  font-weight: bold;
+}
+.text-lg--italic {
+  font-style: italic;
+}
+
+.text-md {
+  color: hsl(0, 0%, 7%);
+  font-size: 14px;
+}
+.text-md.--bold {
+  font-weight: bold;
+}
+.text-md.--italic {
+  font-style: italic;
+}
+
+.card-pill {
+  width: auto;
+  min-width: min-content;
+  max-width: max-content;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.page-card .layout .card__image-wrapper {
+  background-color: hsl(0, 0%, 7%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+}
+.page-card .layout .card__image-wrapper img {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+.page-card .layout .card__intro {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.page-card .layout .card__body {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.page-card .layout .card__footer {
+  align-self: flex-start;
+}
+.page-card .layout .card__footer .author-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.page-card .layout .card__footer .author-name::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: block;
+  background-image: url("assets/images/image-avatar.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=style.css.map */

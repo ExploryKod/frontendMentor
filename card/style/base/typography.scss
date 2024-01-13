@@ -1,0 +1,59 @@
+.title-xs {
+
+    color: $title-xs-color;
+
+    &--bold {
+        font-weight: bold;
+    };
+
+    &--italic {
+        font-style: italic;
+    };
+};
+
+.title-lg {
+
+    color: $title-lg-color;
+    cursor: $cursor-title-lg;
+  
+    &:hover {
+        color: $yellow-300;
+    };
+
+    &--bold {
+        font-weight: bold;
+    };
+
+    &--italic {
+        font-style: italic;
+    };
+};
+
+.text-lg {
+
+    color: $text-lg-color;
+    font-size: $para-font-size-lg;
+
+    &--bold {
+        font-weight: bold;
+    };
+
+    &--italic {
+        font-style: italic;
+    };
+};
+
+.text-md {
+
+    color: $text-md-color;
+    font-size: $para-font-size-md;
+
+    &.--bold {
+        font-weight: bold;
+    };
+
+    &.--italic {
+        font-style: italic;
+    };
+
+};

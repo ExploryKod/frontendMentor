@@ -1,0 +1,60 @@
+.page-card {
+   
+    .layout {
+  
+        .card {
+        
+            &__image-wrapper {
+                background-color: $black;
+
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                border: none;
+                border-radius: $border-radius-lg;
+        
+                img {
+                    width: 100%;
+                    border: none;
+                    border-radius: $border-radius-lg;
+                }
+            }
+       
+            &__intro {
+                align-self: flex-start;
+                display: flex;
+                flex-direction: column;
+                gap: $intro-gap; 
+            }
+
+            &__body {
+                align-self: flex-start;
+                display: flex;
+                flex-direction: column;
+                gap: $body-gap;
+            }
+
+            &__footer {
+                align-self: flex-start;
+             
+                .author-name {
+                    display: flex;
+                    align-items: center;
+                    gap: $author-gap;
+                    
+                    &::before {
+                        content: "";
+                        width: $img-avatar-size;
+                        height: $img-avatar-size;
+                        border-radius: $img-avatar-radius;
+                        display: block;
+                        background-image: $img-avatar;
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+            }
+        }
+    }
+}
+

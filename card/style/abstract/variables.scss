@@ -1,0 +1,44 @@
+/* Spacing */
+$card-pad: 10px;
+$FigTree: 'FigTree', sans-serif;
+
+/* Colors */
+$black:  hsl(0, 0%, 7%);
+$neutral-100: hsl(0, 0%, 100%);
+$grey-300:  hsl(0, 0%, 50%);
+$yellow-300: hsl(47, 88%, 63%);
+
+$page-bg-color: $yellow-300;
+
+
+$title-xs-color: $black;
+$title-lg-color: $black;
+$text-lg-color: $grey-300;
+$text-md-color: $black;
+
+$card-bg-color: $neutral-100;
+$card-border-color: $black;
+
+$card-gap: 15px;
+$intro-gap: 8px;
+$body-gap: 10px;
+
+$author-gap: 5px;
+$img-avatar: url("assets/images/image-avatar.webp");
+$img-avatar-size: 40px;
+$img-avatar-radius: calc($img-avatar-size / 2);
+
+
+/* Borders and radius */
+$border-radius-pill: 5px;
+$border-radius-lg: 10px;
+$border-wth-xs: 1px;
+
+/* Typography */
+$para-font-size-lg: 16px;
+$para-font-size-md: 14px;
+
+$cursor-title-lg: pointer;
+
+$font-w-bold: 600;
+$font-w-xbold: 800;
